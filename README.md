@@ -12,4 +12,4 @@ Variables:
 
 The code runs the experiments for the chosen algorithm and experiment. It creates a ‘results’ folder containing a subfolder ‘frames’ with the state distribution images for each time step in the final iteration and the regret plot.
 
-The ‘knownp’ folder contains the values of the objective function for an approximate optimal policy to be used when calculating the periodic regret computed by considering the MDP to be known. 
+The `knownp` folder contains the objective function values for an approximately optimal periodic policy computed under the assumption that the MDP is fully known, used to compute the periodic regret.
